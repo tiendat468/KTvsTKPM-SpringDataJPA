@@ -21,6 +21,12 @@ public class Student {
     public Student() {
     }
 
+    public Student(Integer id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
     public Integer getId() {
         return id;
     }
